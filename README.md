@@ -1,10 +1,9 @@
 # firstWebPage-TOP
-I'm following the TOP classes, it is my first web page on thit TOP
+I'm following the TOP classes, it is my first web page on this TOP/
 
-Langage : just HTML & CSS for the moment
-
-
+Languages : Just HTML & CSS for the moment/
 
 
-credit 
+
+Credits :
 My pics come frome Pixabay.com & pixels.com
