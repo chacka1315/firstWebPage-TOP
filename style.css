@@ -50,6 +50,18 @@ nav{
     margin-top: -20px;
 }
 
+.divLinks > a{
+    color: #F9FAF8;
+    text-decoration: none;
+    padding: 15px;
+}
+.divLinks > a:hover {
+    color: #1F2937;
+    background-color: #F9FAF8;
+    border-radius: 5px;
+    border: #F9FAF8 solid;
+}
+
 .presentation{
     display: flex;
     justify-content: space-between ;
@@ -66,8 +78,11 @@ nav{
 .presentTitle{
     font-size: 3em;
     font-weight: 900;
+    background: linear-gradient(90deg,  #F9FAF8, 75%, #3882F6);
+    background-clip: text;
+    color: transparent;
 }
-button{
+.headButton{
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
@@ -76,6 +91,18 @@ button{
     border: solid #3882F6;
     cursor: pointer;
     margin-top: 15px;
+    font-weight: 600;
+}
+.headButton:hover{
+    background-color: #F9FAF8;
+    color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font-size: 1em;
+    border: solid #F9FAF8;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: 600;
 }
 
 .presentImg{
@@ -84,42 +111,135 @@ button{
     
 }
 
-a{
-    color: #F9FAF8;
-    text-decoration: none;
-}
-
 /* the main content formatting */
+
 main{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     flex: 1;
-    padding: 10px 200px 20px 200px;
 }
+
 
 .container{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between ;
+    padding: 10px 200px 10px 200px;
+    gap: 10px;
+
 }
 
+.container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px ;
+    gap: 10px;
+}
 .yachtPic{
-    height: auto;
-    width: 400px;
-    border: solid 1.5px #3882F6; 
+    height: 350px;
+    width: 350px;
+    border: solid 5px #3882F6; 
     border-radius: 10px;
 }
+.containerTitle{
+    text-align: center;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 60px;
+}
+
+.yachtName{
+    color: #1F2937;
+    font-size: 2em;
+    font-weight: 900;
+    border-bottom: #1F2937 solid 10px;
+    margin-bottom: 10px;    
+}
+
+
+/* Quote section formatting */
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    background-color: #E5E7EB;
+    padding: 150px 200px 150px 200px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.quote p {
+    font-weight: 400;
+    max-width: 700px;
+    color: #1F2937;
+}
+
+.quote span {
+    font-weight: 800;
+    position: relative;
+    left: 100px;
+}
+
+
+/* section just above footer */
+.beforeFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 100px 200px 100px 200px;
+    background-color: #3882F6;
+    margin: 100px 200px 100px 200px;
+    color: #F9FAF8;
+}
+
+.beforeFooter > div {
+    color: #F9FAF8;
+}
+
+.beforeFooter  span {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+.beforeFooter button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font-size: 1em;
+    border: solid #F9FAF8;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.beforeFooter button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font-size: 1em;
+    border: solid #F9FAF8;
+    cursor: pointer;
+}
 
 
 
-
-
-
-
+/* footer formatting */
 
 footer{
     display: flex;
     justify-content: center;
-    padding: 10px 200px 20px 200px;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    font-weight: 900;
 }
 
