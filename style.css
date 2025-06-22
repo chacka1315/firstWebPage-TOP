@@ -8,7 +8,7 @@
 body{
     display: flex;
     flex-direction: column;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: "Roboto", sans-serif;
     height: 100vh;
 }
@@ -18,10 +18,10 @@ body{
     border: none;
     display: flex;
     height: auto;
-    width: 400px;
+    width: 350px;
     flex-shrink: 0;
     margin-top: -20px ;
-    margin-left: -120px;
+    margin-left: -100px;
 }
 header{
     display: flex;
@@ -29,8 +29,8 @@ header{
     background-color: #1F2937 ;
     color: #F9FAF8;
     justify-content: flex-start;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 nav{
@@ -46,7 +46,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 30px;
+    gap: 10px;
     margin-top: -20px;
 }
 
@@ -65,8 +65,8 @@ nav{
 .presentation{
     display: flex;
     justify-content: space-between ;
-    padding-bottom: 100px;
-    gap: 100px;
+    padding-bottom: 50px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -106,8 +106,8 @@ nav{
 }
 
 .presentImg{
-    height: 400px;
-    width: 600px ;
+    height: 250px;
+    width: 450px ;
     
 }
 
@@ -126,8 +126,7 @@ main{
     text-align: center;
     flex-direction: row;
     justify-content: space-between ;
-    padding: 10px 200px 10px 200px;
-    gap: 10px;
+    padding: 5px 100px 5px 100px;
 
 }
 
@@ -135,26 +134,26 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 300px ;
-    gap: 10px;
+    width: 250px ;
+    gap: 5px;
 }
 .yachtPic{
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     border: solid 5px #3882F6; 
-    border-radius: 10px;
+    border-radius: 10px
 }
 .containerTitle{
     text-align: center;
     color: #1F2937;
     font-weight: 900;
     font-size: 1.5em;
-    padding: 60px;
+    padding: 30px;
 }
 
 .yachtName{
     color: #1F2937;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: 900;
     border-bottom: #1F2937 solid 10px;
     margin-bottom: 10px;    
@@ -170,7 +169,7 @@ main{
     margin-top: 20px ;
     margin-bottom: 20px;
     background-color: #E5E7EB;
-    padding: 150px 200px 150px 200px;
+    padding: 100px;
     color: #1F2937;
     font-style: italic;
     font-weight: 400;
@@ -178,14 +177,14 @@ main{
 
 .quote p {
     font-weight: 400;
-    max-width: 700px;
+    max-width: 450px;
     color: #1F2937;
 }
 
 .quote span {
     font-weight: 800;
     position: relative;
-    left: 100px;
+    left: 130px;
 }
 
 
@@ -194,9 +193,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between ;
-    padding: 100px 200px 100px 200px;
+    padding: 50px 100px 50px 100px;
     background-color: #3882F6;
-    margin: 100px 200px 100px 200px;
+    margin: 50px 100px 50px 100px;
     color: #F9FAF8;
 }
 
